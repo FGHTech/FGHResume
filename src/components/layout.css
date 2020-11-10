@@ -31,7 +31,7 @@ body {
 }
 
 @media only screen and (max-width: 480px) {
-  body {
+  .startview {
     height:70vh;
   }
 }
@@ -648,10 +648,12 @@ pre tt:after {
 
 
 
+.mouseparent {
+  scale: 0.4;
+  -webkit-transform: scale3d(0.4);
+}
 
 .mouse {
-  scale: 0.4;
-  -webkit-transform: scale(0.4);
   right: 0;
   left: 0;
   margin: 0 auto;

@@ -10,9 +10,10 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <div className={""}>
-    <div className={""} style={{position:"relative",height:"90vh",}}>
+    <div className={"startview"} style={{position:"relative"}}>
       <h4 style={{top:"50%",position:"absolute",padding:"20px",backgroundColor:"#000",borderStyle:"none dotted none dotted",borderRadius:"20px",borderColor:"rgb(213, 213, 213)",borderWidth:"3px"}}><i>"With the passion to learn, overcome and adapt - anything is possible."</i></h4>
-    </div><p className={"mouse"}></p>
+    </div>
+    <div className={"mouseparent"}><p className={"mouse"}></p></div>
 
     </div>
     <h1 style={{textAlign:"center",paddingTop:"10vh",}}>Filip G. H.</h1>
