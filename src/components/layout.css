@@ -24,7 +24,16 @@ body {
 
 #gatsby-focus-wrapper{
   background-color: #000;
+}
 
+.startview {
+  height:90vh;
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+    height:70vh;
+  }
 }
 
 a {
