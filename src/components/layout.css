@@ -5,6 +5,7 @@ html {
   box-sizing: border-box;
   overflow-y: scroll;
   background-color: #000;
+
 }
 body {
   margin: 0;
@@ -21,7 +22,34 @@ body {
   font-feature-settings: "kern", "liga", "clig", "calt";
 }
 
+#gatsby-focus-wrapper{
+  background-color: #000;
 
+}
+
+a {
+  color: #9bf1ff;
+}
+
+p {
+  color: lightgray;
+}
+
+.buttons {
+  border-radius: 10px;
+  font-weight: bolder;
+  text-decoration: none;
+  color: #fff;
+  background-color: #1d3f57;
+  padding: 10px 30px;
+}
+buttons:hoover {
+  background: #e5e5e5;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+     -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+          box-shadow: inset 0px 0px 5px #c1c1c1;
+   outline: none;
+}
 
 article,
 aside,
@@ -1141,3 +1169,125 @@ pre tt:after {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+/*https://codepen.io/avvign/pen/NVJzQW*/
+.btn:link,
+.btn:visited {
+  text-decoration: none;
+  padding: 15px 40px;
+
+  display: block;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  max-width: 300px;
+  text-align: center;
+
+
+  border-radius: 100px;
+  transition: all .2s;
+}
+
+.btn:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+  transform: translateY(0px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white {
+  background-color: #1d3f57;
+  color: #fff;
+  font-weight: bolder;
+}
+
+.btn::after {
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all .4s;
+}
+
+.btn-white::after {
+  background-color: #1d3f57;
+}
+
+.btn:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+  top:0!important;
+  display: inline-block!important;
+}
+
+.btn-animated {
+  animation: moveInBottom 5s ease-out;
+  animation-fill-mode: backwards;
+}
+
+@keyframes moveInBottom {
+  0% {
+      opacity: 0;
+      transform: translateY(30px);
+  }
+
+  100% {
+      opacity: 1;
+      transform: translateY(0px);
+  }
+}
+
+
+
+
+
+/*https://codepen.io/mostafizur14/pen/JjKoGyZ*/
+summary {
+  display: flow-root list-item;
+  color: #fff;
+  padding: 0;
+  margin-bottom:0.5em;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  position: relative;
+}
+
+details{
+  margin-bottom: 1rem;
+}
+
+details[open] summary ~ * {
+  animation: sweep .5s ease-in-out;
+}
+@keyframes sweep {
+  0%    {opacity: 0; margin-top: -10px}
+  100%  {opacity: 1; margin-top: 0px}
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
+}
+::marker {
+color: #9bf1ff;
+
+}

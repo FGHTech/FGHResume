@@ -18,22 +18,42 @@ const IndexPage = () => (
     <h1 style={{textAlign:"center",paddingTop:"10vh",}}>Filip G. H.</h1>
 <br></br>
 
-    <div style={{color:"lightgray",}}>
-    <p style={{color:"lightgray",}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget elit vitae est ornare ultrices vel sit amet nulla. Curabitur ultrices posuere fringilla. Sed dignissim mauris ac diam sodales, in hendrerit nisi commodo.</p>
-    
-    <h2 style={{color:"#fff",marginBottom:"0.5em",}}>Expertise</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget elit vitae est ornare ultrices vel sit amet nulla. Curabitur ultrices posuere fringilla. Sed dignissim mauris ac diam sodales, in hendrerit nisi commodo.</p>
-
-    <h2 style={{color:"#fff",marginBottom:"0.5em",}}>Experience & education</h2>
-    <p>As a youngster it always important to stay ahead of the competition.</p>
-
     
 
 
+
+    <h2 style={{color:"#fff",marginBottom:"0.5em",}}>Expertise</h2>
+    <p>As a youngster it always important to stay ahead of the competition.</p>
 
     <div className={"container"}>
     <h4 style={{display:"flex",width:"50%",color:"#fff",margin:"0",}}>
-      Graphic Design</h4>
+      Forward thinking
+      </h4>
+      <div style={{  width:"75%", margin: "0 0 0 auto", right:0, display:"flex",}}>
+        <div className={"Loading"}>
+          <span data-charge='100' style={{width:"95%",}}></span>
+        </div>
+      </div>
+    </div>	
+    <br></br>
+
+    <div className={"container"}>
+    <h4 style={{display:"flex",width:"50%",color:"#fff",margin:"0",}}>
+      Web development
+      </h4>
+      <div style={{  width:"75%", margin: "0 0 0 auto", right:0, display:"flex",}}>
+        <div className={"Loading"}>
+          <span data-charge='100' style={{width:"65%",}}></span>
+        </div>
+      </div>
+    </div>	
+    <br></br>
+
+    <div className={"container"}>
+    <h4 style={{display:"flex",width:"50%",color:"#fff",margin:"0",}}>
+      Branding
+      </h4>
       <div style={{  width:"75%", margin: "0 0 0 auto", right:0, display:"flex",}}>
         <div className={"Loading"}>
           <span data-charge='100' style={{width:"85%",}}></span>
@@ -41,10 +61,99 @@ const IndexPage = () => (
       </div>
     </div>	
     <br></br>
+
+    <div className={"container"}>
+    <h4 style={{display:"flex",width:"50%",color:"#fff",margin:"0",}}>
+      Customer relations
+      </h4>
+      <div style={{  width:"75%", margin: "0 0 0 auto", right:0, display:"flex",}}>
+        <div className={"Loading"}>
+          <span data-charge='100' style={{width:"95%",}}></span>
+        </div>
+      </div>
+    </div>	
+    <br></br>
+
+    <div className={"container"}>
+    <h4 style={{display:"flex",width:"50%",color:"#fff",margin:"0",}}>
+      Photo/video
+      </h4>
+      <div style={{  width:"75%", margin: "0 0 0 auto", right:0, display:"flex",}}>
+        <div className={"Loading"}>
+          <span data-charge='100' style={{width:"50%",}}></span>
+        </div>
+      </div>
+    </div>	
+    <br></br>
+
+    <div className={"container"}>
+    <h4 style={{display:"flex",width:"50%",color:"#fff",margin:"0",}}>
+      Programming
+      </h4>
+      <div style={{  width:"75%", margin: "0 0 0 auto", right:0, display:"flex",}}>
+        <div className={"Loading"}>
+          <span data-charge='100' style={{width:"30%",}}></span>
+        </div>
+      </div>
+    </div>	
+    <br></br>
+    <br></br>
     <br></br>
 
 
+
+
+
+
+
+    <h2 style={{color:"#fff",marginBottom:"0.5em",}}>Experience & education</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget elit vitae est ornare ultrices vel sit amet nulla. Curabitur ultrices posuere fringilla. Sed dignissim mauris ac diam sodales, in hendrerit nisi commodo.</p>
+
+    <details>
+      <summary>2020 - today: <b>FGHTech AB</b></summary>
+      <div class="faq__content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor suscipit, iure tenetur eveniet, vero tempore delectus? Perferendis, quisquam ullam consequuntur?</p>
+      </div>
+  </details>
+
+    <details>
+    <summary>2019 - 2020: <b>FGHTech Sweden EF</b></summary>
+    <div className={"faq__content"}>
+      <p>Fugiat quo voluptas nulla pariatur? Et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque. Accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo.</p>
     </div>
+    </details>
+    
+    <details>
+    <summary>2016 - 2020: <b>Täby Enskilda Gymnasium</b></summary>
+    <div className={"faq__content"}>
+      <p>Fugiat quo voluptas nulla pariatur? Et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque. Accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo.</p>
+    </div>
+    </details>
+
+    <details>
+    <summary>2018 - 2019: <b>Arizona Exchange year</b></summary>
+    <div className={"faq__content"}>
+      <p>Fugiat quo voluptas nulla pariatur? Et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque. Accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo.</p>
+    </div>
+    </details>
+
+    <br></br>
+    <br></br>
+
+
+
+
+    <a href="https://fghtech.com/" className={"btn btn-white btn-animate"}>Learn about FGHTech</a>
+    
+
+    <br></br>
+    <br></br>
+
+
+
+
+
+    
     <Link to="/page-2/">Go to page 2</Link> <br />
     <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
     
