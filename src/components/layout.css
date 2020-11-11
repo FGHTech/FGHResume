@@ -649,8 +649,7 @@ pre tt:after {
 
 
 .mouseparent {
-  scale: 0.4;
-  -webkit-transform: scale3d(0.4);
+  transform: scale(0.5, 0.5);
 }
 
 .mouse {
